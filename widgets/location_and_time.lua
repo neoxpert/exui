@@ -80,7 +80,7 @@ function LocationAndTime (options)
 		
 		text = GetZoneText()
 		
-		if zonet ~= "" then
+		if zonet ~= "" and zonet ~= text then
 			text = text .. " - " .. zonet
 		end
 		
